@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../../../03-simple-golden-acorn-app-extend-with-redux/src/app";
+import App from "../../03src/app";
 
 const AppWithRedux = () => (
   <div>

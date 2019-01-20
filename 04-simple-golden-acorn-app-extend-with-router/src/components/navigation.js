@@ -1,19 +1,20 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Nav = () => {
-  return (
-    <div>
-      <ul>
-        <li>
-          <NavLink to="/simple/states"> With States </NavLink>
-        </li>
-        <li>
-          <NavLink to="/simple/redux"> With Redux </NavLink>
-        </li>
-      </ul>
-    </div>
-  );
-};
+const Nav = () => (
+  <nav>
+    <ul>
+      <li>
+        <Link to="/"> Home </Link>
+      </li>
+      <li>
+        <Link to="/simple/states"> With States </Link>
+      </li>
+      <li>
+        <Link to="/simple/redux"> With Redux </Link>
+      </li>
+    </ul>
+  </nav>
+);
 
 export default Nav;

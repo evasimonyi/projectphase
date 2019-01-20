@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "../../../02-simple-golden-acorn-app-with-states/src/components/counter";
+import Counter from "../../02src/components/counter";
 
 const AppWithStates = () => (
   <div>
